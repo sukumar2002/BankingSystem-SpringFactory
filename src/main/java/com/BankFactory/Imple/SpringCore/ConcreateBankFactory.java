@@ -9,10 +9,8 @@ import com.BankInterface.Implementations.SpringCore.SBI;
 import com.BankInterface.SpringCore.Bank;
 @Component
 public class ConcreateBankFactory implements BankFactory{
-
 	private final SBI sbi;
-	private final HDFC hdfc;
-	  
+	private final HDFC hdfc;  
     @Autowired
 	public ConcreateBankFactory(SBI sbi, HDFC hdfc) {
 		super();
