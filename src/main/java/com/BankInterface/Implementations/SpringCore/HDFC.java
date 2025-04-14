@@ -1,7 +1,6 @@
 package com.BankInterface.Implementations.SpringCore;
 
 import org.springframework.stereotype.Component;
-
 import com.BankInterface.SpringCore.Bank;
 @Component
 public class HDFC implements Bank{
