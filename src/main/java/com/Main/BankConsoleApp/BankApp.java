@@ -1,9 +1,7 @@
 package com.Main.BankConsoleApp;
 
 import java.util.Scanner;
-
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 import com.AppConfig.SpringCore.AppConfig;
 import com.Customer.SprinCore.Customer;
 
