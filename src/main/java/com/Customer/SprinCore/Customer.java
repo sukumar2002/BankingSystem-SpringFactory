@@ -2,9 +2,9 @@ package com.Customer.SprinCore;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import com.BankFactoryInterface.SpringCore.BankFactory;
 import com.BankInterface.SpringCore.Bank;
+
 @Component
 public class Customer {
 	private String customerName;
